@@ -1,27 +1,55 @@
-# CombathubUi
+# CombatHub UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+CombatHub UI is the frontend application for CombatHub, a martial arts community platform. It enables organizations to share information about martial arts competition events, and allows users and martial arts gyms to sign up for these events.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
+- [Development](#development)
+  - [Code Scaffolding](#code-scaffolding)
+  - [Building the Project](#building-the-project)
+  - [Running Unit Tests](#running-unit-tests)
+  - [Running End-to-End Tests](#running-end-to-end-tests)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Code scaffolding
+## About
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+CombatHub is a martial arts community platform where organizations can share information about martial arts competition events. Users and martial arts gyms can browse and sign up for these events, fostering a connected and engaged martial arts community.
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Browse upcoming martial arts competitions
+- Event registration for users and gyms
+- Organization profiles to manage and promote events
+- User profiles to track event participation
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular CLI: 18.2.7
+- TypeScript
+- HTML5 & CSS3
 
-## Running end-to-end tests
+## Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Prerequisites
 
-## Further help
+Ensure you have the following installed on your system:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Angular CLI](https://angular.io/cli)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/combathub-ui.git
+   cd combathub-ui
